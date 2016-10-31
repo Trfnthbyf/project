@@ -1,0 +1,129 @@
+.container {
+  padding: 60px 0 57px;
+}
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.block {
+  border: 1px solid #ddeff7;
+  background: #ebfafe;
+  border-radius: 2px;
+  width: 48.78%;
+  margin-bottom: 28px;
+  box-sizing: border-box;
+}
+.block-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddeff7;
+  padding: 28px 30px 21px 33px;
+  font: 18px/24px "Ubuntu", sans-serif;
+  color: #1f3143
+}
+.icons {
+  display: flex;
+}
+.icon {
+  font-size: 35px;
+  margin-left: 10px;
+  font-family: 'icomoon';
+}
+.icon-Edit .path1:before {
+  content: "\e90a";
+  color: #04bee6;
+}
+.icon-Edit .path2:before {
+  content: "\e90b";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Blocks .path1:before {
+  content: "\e900";
+  color: #04bee6;
+}
+.icon-Blocks .path2:before {
+  content: "\e901";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-More .path1:before {
+  content: "\e904";
+  color: #04bee6;
+}
+.icon-More .path2:before {
+  content: "\e905";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-More .path3:before {
+  content: "\e906";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-More .path4:before {
+  content: "\e907";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Message .path1:before {
+  content: "\e908";
+  color: #04bee6;
+}
+.icon-Message .path2:before {
+  content: "\e909";
+  color: #fff;
+  margin-left: -1em;
+}
+
+
+
+.block-diagrams {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ddeff7;
+}
+.block-diagram {
+  width: 33.33%;
+  border-right: 1px solid #ddeff7;
+  text-align: center;
+  padding: 17px 0 19px;
+}
+.block-diagram:last-child {
+  border-right: none;
+}
+.diagram-title {
+  font: 16px/24px "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+.block-progress {
+  padding: 23px 30px 42px;
+}
+.progree-title {
+  padding-bottom: 16px;
+  font-weight: 400;
+  font-size: 18px;
+}
+.progress-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.progress-item {
+  width: 33.33%;
+  color: #fff;
+  font: 16px/24px "Ubuntu", sans-serif;
+  font-weight: 400;
+  padding: 9px 0;
+}
+.green {
+  background: #01cb65;
+}
+.blue {
+  background: #00baf7;
+}
+.red {
+  background: #fb574a;
+}

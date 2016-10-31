@@ -1,0 +1,174 @@
+.login {
+    width: 450px;
+    padding: 40px 39px 55px;
+    margin: auto;
+    box-sizing: border-box;
+    background: #f2f6f8;
+}
+.btn {
+    color: #fff;
+    border: none;
+    width: 100%;
+    font: 18px/24px "Ubuntu", sans-serif;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.btn-linkedin {
+    background: #066093;
+    margin-bottom: 10px;
+}
+.btn-google {
+    background: #df4a32;
+}
+.line {
+    text-align: center;
+    position: relative;
+    color: #91b0cf;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.line:before,
+.line:after {
+    content: "";
+    width: 45%;
+    border-bottom: 1px solid #91b0cf;
+    position: absolute;
+    bottom: calc(50% - 2px);
+}
+.line:before {
+    left: 0;
+}
+.line:after {
+    right: 0;
+}
+input:not([type="checkbox"]) {
+    padding: 12px 16px;
+    border: 1px solid #cfdeec;
+    width: 100%;
+    box-sizing: border-box;
+    font: 18px/35px "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+::-webkit-input-placeholder {
+    font-size: 18px;
+    color: #1f3134;
+    line-height: 24px;
+}
+::-moz-placeholder {  
+    font-size: 18px;
+    line-height: 24px;
+    color: #1f3134;
+}
+:-ms-input-placeholder {
+    font-size: 18px;
+    line-height: 24px;
+    color: #1f3134;
+}
+input:-moz-placeholder { 
+    font-size: 18px;
+    line-height: 24px;
+    color: #1f3134;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.remember {
+    font-size: 16px;
+    color: #1f3143;
+}
+.forgot-password {
+    color: #fb574a;
+    font-size: 16px;
+}
+.btn-form {
+   background: #00c4ee;
+   border-radius: 2px;
+   padding: 19px 0;
+   justify-content: center;
+}
+.btn-form:hover {
+    background: #47defe;
+}
+.btn-form:active {
+    background: #00b9e1;
+}
+.form-link {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.signup-group {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-signup {
+    border-radius: 2px;
+    border: 1px solid #00c4ee;
+    color: #00c4ee;
+    background: #fff;
+    font-size: 18px;
+    padding: 7px 23px;
+    cursor: pointer;
+}
+.btn-signup:hover {
+    color: #47defe;
+    border: 1px solid #47defe;    
+}
+.btn-signup:active {
+    color: #47defe;
+    border: 1px solid #47defe;
+    background: #f2f6f8;
+}
+.checkbox {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);    
+}
+.form-link label:before {
+    content: "\ea10";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    line-height: 17px;
+    border: 1px solid #a5c1dd;
+    position: relative;
+    margin-right: 6px;
+    font-family: 'icomoon';
+    font-size: 12px;
+    color: transparent;
+}
+.form-link label {
+    cursor: pointer;
+}
+ input[type=checkbox]:checked + label:before {
+     content: "\ea10";
+     color: #a5c1dd;
+}
+.icon {
+    padding: 15px;
+    position: relative;
+    margin-right: 27px;   
+}
+.icon:before {
+    font-family: 'icomoon';
+    top: 0;
+    bottom: 0;    
+}
+.icon-google {
+    background: #fb563b;
+}
+.icon-google:before {
+    content: "\e902";
+    font-size: 30px;    
+}
+.icon-linkedin:before {
+    content: "\e903";
+    font-size: 29px;    
+}
+.icon-linkedin {
+    background: #0077b5;
+}

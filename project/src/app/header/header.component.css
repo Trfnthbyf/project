@@ -1,0 +1,165 @@
+.header {
+  background: #1f3143;
+  color: #fff;
+  font: 16px/24px "Ubuntu", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.logo {
+  padding: 26px 0 12px;
+}
+.header-nav {
+  margin: auto 0 auto auto;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 22px;
+  margin-left: 46px;
+  position: relative;
+}
+.profile.active {
+  background: #1c2c3b;
+}
+.profile.active .profile-menu {
+  display: block;
+}
+.profile-img {
+  border-radius: 100%;
+  padding-left: 12px;
+  width: 82px;
+  height: 82px;
+}
+.menu-item {
+  margin: 0 45px 0 0 ;
+  position: relative;
+}
+.header-nav {
+  display: flex;
+  font-size: 18px;
+}
+.active-item:before {
+  content: '';
+  position: absolute;
+  left: -17px;
+  width: 5px;
+  top: calc(50% - 2px);
+  height: 5px;
+  border-radius: 100%;
+  background: #fb574a;
+  display: block;
+}
+
+.btn-project {
+  font: 16px/40px "Ubuntu";
+  font-weight: 300;
+  position: relative;
+  border-radius: 2px;
+  padding: 7px 14px 12px 34px;
+  background: #1e5799; /* Old browsers */
+  background: -moz-linear-gradient(left, #1e5799 0%, #fb574a 0%, #fb4b6f 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #1e5799 0%,#fb574a 0%,#fb4b6f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #1e5799 0%,#fb574a 0%,#fb4b6f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.btn-project:hover {
+  background: #fb574a;
+}
+.btn-project:before {
+  content: "";
+  position: absolute;
+}
+.profile-menu {
+  position: absolute;
+  top: 114px;
+  right: -2px;
+  background: #1c2c3b;
+  min-width: 230px;
+  border-radius: 2px;
+  display: none;
+}
+.profile-menu:before {
+  content: "";
+  top: -10px;
+  right: 23%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #1c2c3b;
+  position: absolute;
+}
+.profile-menu-item {
+  position: relative;
+}
+.profile-menu-item.active-item:before {
+  left: 17px;
+  top: calc(50% + 4px);
+}
+.profile-menu-link {
+  padding: 6px 37px;
+  display: block;
+}
+.profile-menu-item:first-of-type a {
+  padding-top: 17px;
+}
+.profile-menu-item:last-of-type a {
+  padding-bottom: 20px;
+}
+
+
+
+
+/*
+.user {
+  padding: 14px 25px;
+  float: right;
+  position: relative;
+  color: #fff;
+}
+.profile-menu {
+  position: absolute;
+  bottom: -300px;
+  background: #1c2c3b;
+  min-width: 230px;
+  border-radius: 2px;
+}
+.profile-menu:before {
+  content: "";
+  top: -10px;
+  right: 23%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #1c2c3b;
+  position: absolute;
+}
+.profile-menu a {
+  padding: 6px 37px;
+  display: block;
+}
+.profile-menu-item:first-of-type a {
+  padding-top: 17px;
+}
+.profile-menu-item:last-of-type a {
+  padding-bottom: 20px;
+}
+.user-picture {
+  width: 72px;
+  height: 72px;
+  background: grey;
+  border-radius: 100%;
+}
+.user-picture {
+  float: right;
+}
+.user-name {
+  float: left;
+}
+.right {
+  clear: right;
+}
+*/

@@ -1,0 +1,55 @@
+.sign-up {
+  max-width: 450px;
+  padding: 42px 37px 56px;
+  margin: auto;
+  box-sizing: border-box;
+  background: #fff;
+}
+.input {
+  border: 1px solid #a5c1dd;
+  width: 100%;
+  padding: 17px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+::-webkit-input-placeholder {
+  font-size: 18px;
+  color: #1f3134;
+  line-height: 24px;
+}
+::-moz-placeholder {
+  font-size: 18px;
+  line-height: 24px;
+  color: #1f3134;
+}
+:-ms-input-placeholder {
+  font-size: 18px;
+  line-height: 24px;
+  color: #1f3134;
+}
+input:-moz-placeholder {
+  font-size: 18px;
+  line-height: 24px;
+  color: #1f3134;
+}
+
+.btn {
+  border-radius: 2px;
+  padding: 20px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+.sign-up-button {
+  background: #00c4ee;
+  color: #fff;
+}
+.sign-up-button:hover {
+  background: #47defe;
+  transition: background 1s linear;
+}
+.sign-up-button:active {
+  background: #00b9e1;
+}

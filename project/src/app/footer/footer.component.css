@@ -1,0 +1,19 @@
+.footer {
+  background: #1f3143;
+  color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  padding: 30px 0;
+}
+.menu-item {
+  padding-left: 65px;
+}
+.footer-nav {
+  margin: auto 0 auto auto;
+}
+
